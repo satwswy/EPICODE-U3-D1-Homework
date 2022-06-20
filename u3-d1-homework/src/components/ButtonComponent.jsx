@@ -1,6 +1,8 @@
-const ButtonComponent = () => {
+const ButtonComponent = ({label}) => {
     return (
 
-        <button>i am a button  </button>
+        <button>{label}</button>
     )
 }
+
+export default ButtonComponent
